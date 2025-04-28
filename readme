@@ -1,17 +1,61 @@
-<h1> Portfolio Website - GitHub Repository <h1>
+Portfolio Website - GitHub Repository
 📌 Task Objectives
 This repository contains a professional portfolio website that serves as an online resume, showcasing:
-1) Personal introduction and background <br>
-2) Technical and professional skills <br>
-3) Project portfolio with descriptions <br>
-4) Contact form functionality <br>
-5) Fully responsive design <br>
+1) Personal introduction and background
+2) Technical and professional skills
+3) Project portfolio with descriptions
+4) Contact form functionality
+5) Fully responsive design
 
-<h1>🛠️ Technologies Used<h1>
+🛠️ Technologies Used
 HTML5
-
 CSS3 (Flexbox, Grid)
-
 JavaScript (ES6+)
-
 Git/GitHub for version control
+
+✨ Key Features
+Modern UI Design: Clean, professional layout with animations
+Responsive: Works on all device sizes
+Interactive Elements: Smooth scrolling, form validation
+Performance Optimized: Fast loading with optimized assets
+Accessible: Semantic HTML and ARIA attributes
+
+🏃‍♂️ How to Run Locally
+Prerequisites
+Web browser (Chrome, Firefox, Safari)
+Code editor (VS Code recommended)
+Git (optional)
+
+Installation
+1) Clone the repository:
+git clone https://github.com/yourusername/portfolio-website.git
+
+2) Navigate to project directory:
+cd portfolio-website
+
+3) Open index.html in your browser
+
+🏗️ Project Structure
+portfolio-website/
+├── index.html          # Main HTML file
+├── css/
+│   ├── style.css       # Main styles
+│   └── animations.css  # Animation styles
+├── js/
+│   ├── main.js         # Core functionality
+│   └── form-handler.js # Contact form handling
+├── images/             # All project images
+└── README.md           # This file
+
+🤝 Contributing
+Contributions are welcome! Please:
+
+Fork the repository
+Create a new branch (git checkout -b feature/your-feature)
+Commit your changes (git commit -m 'Add some feature')
+Push to the branch (git push origin feature/your-feature)
+Open a Pull Request
+
+📧 Contact
+For questions or feedback:
+Email: nitumesharma@gmail.com
