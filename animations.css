@@ -1,0 +1,84 @@
+/* Animation Classes */
+.slide-in-left {
+    animation: slideInLeft 1s ease forwards;
+}
+
+.slide-in-right {
+    animation: slideInRight 1s ease forwards;
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease forwards;
+}
+
+.zoom-in {
+    animation: zoomIn 1s ease forwards;
+}
+
+/* Keyframes */
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Animation Delays */
+.slide-in-left:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.slide-in-left:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.slide-in-right {
+    animation-delay: 0.5s;
+}
+
+.fade-in:nth-child(1) {
+    animation-delay: 0.7s;
+}
+
+.fade-in:nth-child(2) {
+    animation-delay: 0.9s;
+}
+
+.zoom-in {
+    animation-delay: 1.1s;
+}
